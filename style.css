@@ -1,0 +1,26 @@
+* {
+	overflow-x: hidden;
+	overflow-y: hidden;
+	text-align: center;
+}
+html { 
+	overflow-y: scroll; 
+}
+body { 
+	position: absolute; 
+}
+section {
+	margin: 0px;
+}
+p {
+	padding-left: 10px;
+}
+table {
+	width: 50%;
+}
+.s {
+	background-color: #4CB38C;
+}
+.l {
+	text-align: left;
+}
