@@ -24,3 +24,13 @@ table {
 .l {
 	text-align: left;
 }
+.secsplit {
+	width: 47%;
+	padding: 1%;
+}
+.secleft {
+	float: left;
+}
+.secright {
+	float: right;
+}
