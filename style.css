@@ -24,8 +24,11 @@ table {
 .l {
 	text-align: left;
 }
+.splitcon {
+	width: 100%;
+}
 .secsplit {
-	width: 50%;
+	width: 49%
 }
 .secleft {
 	float: left;
