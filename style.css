@@ -1,31 +1,67 @@
-/* Desktop */
-@media only screen and (min-width: 1200px) {
-	* {
-		overflow-x: hidden;
-		overflow-y: hidden;
-		text-align: center;
-		font-family: 'Poppins', sans-serif;
-	}
-	html { 
-		overflow-y: scroll; 
-	}
-	body { 
-		position: absolute; 
-	}
-	section {
-		margin: 0px;
-	}
-	p {
-		padding-left: 10px;
-	}
+* {
+	overflow-x: hidden;
+	overflow-y: hidden;
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+}
+html { 
+	overflow-y: scroll; 
+}
+body { 
+	position: absolute; 
+}
+section {
+	margin: 0px;
+}
+p {
+	padding-left: 10px;
+}
+
+/* Mobile */
+@media only screen and (max-width: 600px) {
 	table {
-		width: 50%;
+	width: 90%;
 	}
 	.s {
 		background-color: #4CB38C;
 	}
 	.x {
-		height: 330px;
+	}
+	.l {
+		text-align: left;
+	}
+	.splitcon {
+		width: 100%;
+	}
+	.secsplit {
+		width: 100%
+	}
+	.secleft {
+		float: left;
+	}
+	.secright {
+		float: right;
+	}
+	.port {
+		width: 90%;
+		padding: 4%;
+	}
+	.v {
+		display: block;
+		visibility: visible;
+	}
+}
+
+/* Desktop */
+@media only screen and (min-width: 600px) {
+	table {
+	width: 50%;
+	}
+	.s {
+		background-color: #4CB38C;
+	}
+	.x {
+		height: 400px;
 	}
 	.l {
 		text-align: left;
@@ -46,47 +82,10 @@
 		width: 20%;
 		padding: 20px;
 	}
+	.v {
+		display: none;
+	}
 }
 
-/* Mobile */
-@media only screen and(max-width: 1200px) {
-	* {
-		overflow-x: hidden;
-		overflow-y: hidden;
-		text-align: center;
-		font-family: 'Poppins', sans-serif;
-	}
-	html { 
-		overflow-y: scroll; 
-	}
-	body { 
-		position: absolute; 
-	}
-	section {
-		margin: 0px;
-	}
-	p {
-		padding-left: 10px;
-	}
-	table {
-	}
-	.s {
-		background-color: #4CB38C;
-	}
-	.x {
-	}
-	.l {
-		text-align: left;
-	}
-	.splitcon {
-	}
-	.secsplit {
-	}
-	.secleft {
-	}
-	.secright {
-	}
-	.port {
-		width: 100%;
-	}
-}
+
+
