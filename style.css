@@ -40,3 +40,7 @@ table {
 .secright {
 	float: right;
 }
+.port {
+	width: 20%;
+	padding: 20px;
+}
