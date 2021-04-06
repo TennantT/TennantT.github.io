@@ -2,6 +2,7 @@
 	overflow-x: hidden;
 	overflow-y: hidden;
 	text-align: center;
+	font-family: 'Poppins', sans-serif;
 }
 html { 
 	overflow-y: scroll; 
@@ -20,7 +21,9 @@ table {
 }
 .s {
 	background-color: #4CB38C;
-	height: 285px;
+}
+.x {
+	height: 330px;
 }
 .l {
 	text-align: left;
